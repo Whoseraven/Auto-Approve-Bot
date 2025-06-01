@@ -7,10 +7,22 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN = int(os.environ.get("ADMIN", "7577853954"))
 
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002322985853"))
-NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "False").lower() == "true"  # Set "True" For accept new requests
 
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://sumitsajwan135:gameno01@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
+# Accept new requests (set "True" to enable)
+NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "False").lower() == "true"
+
+# ✅ FIXED: Unterminated string literal
+DB_URI = os.environ.get(
+    "DB_URI",
+    "mongodb+srv://sumitsajwan135:gameno01@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+)
+
 DB_NAME = os.environ.get("DB_NAME", "sumitsajwan135")
 
-IS_FSUB = os.environ.get("IS_FSUB", "True").lower() == "true"  # Set "True" For Enable Force Subscribe
-AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1001732273753 -1002322985853").split())) # Add Multiple channel ids
+# Force Subscribe Feature
+IS_FSUB = os.environ.get("IS_FSUB", "True").lower() == "true"
+
+# Support multiple channel IDs, space-separated
+AUTH_CHANNELS = list(
+    map(int, os.environ.get("AUTH_CHANNEL", "-1001732273753 -1002322985853").split())
+)
