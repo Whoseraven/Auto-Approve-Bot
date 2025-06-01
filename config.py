@@ -12,5 +12,5 @@ NEW_REQ_MODE = os.environ.get("NEW_REQ_MODE", "False").lower() == "true"  # Set 
 DB_URI = os.environ.get("DB_URI", "mongodb+srv://sumitsajwan135:gameno01@cluster0.ja0i0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"")
 DB_NAME = os.environ.get("DB_NAME", "sumitsajwan135")
 
-IS_FSUB = os.environ.get("IS_FSUB", "Tru").lower() == "true"  # Set "True" For Enable Force Subscribe
+IS_FSUB = os.environ.get("IS_FSUB", "True").lower() == "true"  # Set "True" For Enable Force Subscribe
 AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1001732273753 -1002322985853").split())) # Add Multiple channel ids
