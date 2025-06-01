@@ -5,7 +5,7 @@ class text(object):
 
 𝖩𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗂𝗇 𝗒𝗈𝗎𝗋 𝖼𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖺𝗇𝖽 𝗀𝗋𝗈𝗎𝗉𝗌 𝗐𝗂𝗍𝗁 𝗉𝖾𝗋𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗍𝗈 𝖺𝖽𝖽 𝗇𝖾𝗐 𝗆𝖾𝗆𝖻𝖾𝗋𝗌.
 
-<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/TechifyRahul'>ʀᴀʜᴜʟ</a></blockquote></b>"""
+<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Whosekirito'>ʀᴀʜᴜʟ</a></blockquote></b>"""
 
     LOG = """#New_User
 
@@ -20,7 +20,7 @@ Server: Koyeb 🌐
 Build Status: V1.3 🚀  
 Source Code: Available (Free) 💻
 
-<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/TechifyRahul'>ʀᴀʜᴜʟ</a></blockquote></b>"""
+<b><blockquote>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://telegram.me/Whosekirito'>ʀᴀʜᴜʟ</a></blockquote></b>"""
 
     HELP = """{},
 
